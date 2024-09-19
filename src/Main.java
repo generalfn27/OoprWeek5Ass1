@@ -1,6 +1,14 @@
 import java.io.*;
 import java.util.Scanner;
 
+/*
+Instruction: Using BufferedReader and Scanner, create a program
+to ask the user to input three words from the user and
+output those three words on the screen as a phrase.
+
+di ko sure kaya dalawa para sigurado kasi "Using BufferedReader and Scanner"
+*/
+
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("This is BufferedReader version");
