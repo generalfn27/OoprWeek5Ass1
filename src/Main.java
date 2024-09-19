@@ -15,6 +15,7 @@ public class Main {
         Buffer beff = new Buffer();
         beff.input();
         beff.display();
+
         //dalawang version kasi trip ko lang po kasi bidabida hahahaha
         System.out.println("\nThis is the Scanner version");
         Scan scam = new Scan();
@@ -37,6 +38,7 @@ class Buffer {
             tWord = scanf.readLine();
 
     }
+
     public void display() {
         System.out.println(fWord + " " + sWord + " " + tWord + ".");
     }
@@ -59,5 +61,4 @@ class Scan {
     public void display() {
         System.out.println(word1 + " " + word2 + " " + word3 + ".");
     }
-
 }
